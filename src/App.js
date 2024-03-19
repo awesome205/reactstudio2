@@ -17,7 +17,7 @@ function App() {
     cart.forEach(value => {
       sum += value[1] * value[0];
     });
-    return sum;
+    return sum.toFixed(2);
   }
   const [cart, setCart] = useState(new Map());
   // const updateCart = (item, value, setcart) => {
