@@ -1,9 +1,32 @@
 /* Add styling for your page here */
 
 .App {
-
 }
 
 .BakeryItem {
-  
+}
+
+.toplevelcard {
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.toplevelcard:hover {
+  background-color: rgb(55 65 81);
+}
+
+.cimagediv {
+  flex-basis: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.375rem;
+  height: 60px;
+}
+
+.cimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
